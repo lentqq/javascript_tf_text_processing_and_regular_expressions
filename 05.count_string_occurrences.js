@@ -1,9 +1,9 @@
-function countStringsOccurrences(string, searshedWord) {
-    let matchWord = string.split(' ');
+function countStringsOccurrences(string, matchingWord) {
+    let searchingWords = string.split(' ');
     let count = 0;
 
-    for (const word of matchWord) {
-        if (word === searshedWord) {
+    for (const word of searchingWords) {
+        if (word === matchingWord) {
             count++;
         }
     }
