@@ -1,13 +1,13 @@
-function countStringsOccurrences(string, matchingWord) {
-    let searchingWords = string.split(' ');
+function countStringsOccurrences(string, searshedWord) {
+    let matchWord = string.split(' ');
     let count = 0;
 
-    for (const word of searchingWords) {
-        if (word === matchingWord) {
+    for (const word of matchWord) {
+        if (word === searshedWord) {
             count++;
         }
     }
-     console.log(count);
+    console.log(count);
 }
 
 countStringsOccurrences('This is a word and it also is sentence', 'is')
