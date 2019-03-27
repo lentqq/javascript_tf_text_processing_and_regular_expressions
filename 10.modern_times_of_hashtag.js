@@ -15,7 +15,7 @@ function hashTag(text) {
 
     text.split(' ').forEach(word => {
         if (word[0] === '#' && word.length > 1) {
-                    console.log(word.slice(1));
+                    console.log(word.substr(1));
                 }
     });
 }
